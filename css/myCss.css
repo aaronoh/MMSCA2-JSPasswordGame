@@ -1,0 +1,26 @@
+.navbar {
+     text-align: center !important;
+ }
+
+.content-box{
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 650px;
+    background: #dfe6e9;
+}
+.content-box h2,p{
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#pw{
+    margin-left: 2%;
+}
+
+#results, #scores{
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 5%;
+}

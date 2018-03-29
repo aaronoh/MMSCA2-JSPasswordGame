@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/myCss.css">
+    <script type="text/javascript" src="js/checkPassword.js"></script>
+    <title>Secure Password Creator</title>
+</head>
+<div>
+<div class="container"></div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="col">
+    <img src="imgs/home.png" width="60px" height="65px">
+    </div>
+    <div class="col">
+        <a class="navbar-brand" href="#"><h1>Create a Secure Password</h1></a>
+    </div>
+    <div class="col">
+    <img src="imgs/logo.png" width="150px" height="75px">
+    </div>
+</nav>
+    <div class="content-box">
+    <div class="row">
+        <h2>How secure is my password? </h2>
+        <p>A good password contains a variety of letters, numbers and symbols. It should not contain your name or any information that is publicly accessible. Enter your password here to test its' strength.</p>
+    </div>
+        <div id ='pw' class="row">
+            <input type="password" id="pwInput">
+            <button id="send" onclick="getPw()">Check!</button>
+        </div>
+        <div id="results" class="row"></div>
+        <div id="scores" class="row"></div>
+    </div>
+</div>
+</body>
+</html>
