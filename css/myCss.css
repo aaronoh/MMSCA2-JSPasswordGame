@@ -12,3 +12,17 @@
    background-color: #f8f9fa;
     color: black;
 }
+
+.charts{
+    width: 150px;
+    height: 150px;
+}
+
+.charts > svg {
+    height: 100%;
+    display: block;
+}
+
+#chart-container{
+    margin-top: 100px;
+}
