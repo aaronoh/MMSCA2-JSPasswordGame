@@ -20,6 +20,14 @@ function getPw() {
         '                                <div class="chart" id="symcircle"></div>\n' +
         '                            </div>\n' +
         '                        </div>\n' +
+        '                        </div>\n' +
+        '                    <div class="col l3">\n' +
+        '                        <div class="card">\n' +
+        '                            <div class="card-content">\n' +
+        '                            <span id ="ctitle" class="card-title">Length</span>\n' +
+        '                                <div class="chart" id="lcircle"></div>\n' +
+        '                            </div>\n' +
+        '                        </div>\n' +
         '                    </div>\n' +
         '                    <div class="col l3">\n' +
         '                        <div class="card">\n' +
@@ -48,6 +56,7 @@ function getPw() {
     //for the first 10 chars of the pw, length = score
     if (length <= 10) {
         lengthscore = length;
+
     }
     //If pw is over 10 chars they get the max score - 10
     else {
@@ -56,12 +65,15 @@ function getPw() {
 
     if (length <= 5) {
         lengthCom = ` This is not an ideal password. You need to add a few more characters.`;
+        lencol = '#ff7675'
     }
     if (length > 5 && length < 9) {
         lengthCom = ` This is an ok password. You would benefit from add a few more characters.`;
+        lencol = '#fdcb6e'
     }
     if (length >= 9) {
         lengthCom = ` This password is an ideal length and should be secure.`;
+        lencol = '#00b894'
     }
     //-------------------------------------------------------------------------------------------------------------------------------//
 
@@ -165,4 +177,13 @@ function getPw() {
     totalchart.animate(percentagescore / 100);
 
     totalchart.setText(percentagescore + '%');
+
+    var lenchart = new ProgressBar.Circle('#lcircle', {
+        color: lencol,
+        duration: 2000,
+        easing: 'easeInOut'
+    });
+    lenchart.animate(lengthscore / 10);
+
+    lenchart.setText(lengthscore *10 + '%');
 }
