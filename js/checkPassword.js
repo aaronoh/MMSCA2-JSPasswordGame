@@ -152,7 +152,7 @@ function getPw() {
         duration: 2000,
         easing: 'easeInOut'
     });
-    if (numscore > 0) {
+    if (symscore > 0) {
         symchart.animate(symscore / 10);
     }
     else {
@@ -160,13 +160,13 @@ function getPw() {
     }
     symchart.setText(symscore * 10 + '%');
 
-    if (totalscore <= 10){
+    if (totalscore <= 10) {
         tcol = '#ff7675'
     }
-    if (totalscore >10 && totalscore <= 20){
+    if (totalscore > 10 && totalscore <= 20) {
         tcol = '#fdcb6e'
     }
-    if (totalscore > 20 && totalscore <= 30){
+    if (totalscore > 20 && totalscore <= 30) {
         tcol = '#00b894'
     }
     var totalchart = new ProgressBar.Circle('#tcircle', {
@@ -185,5 +185,8 @@ function getPw() {
     });
     lenchart.animate(lengthscore / 10);
 
-    lenchart.setText(lengthscore *10 + '%');
+    lenchart.setText(lengthscore * 10 + '%');
+
+
+    console.log(numscore, symscore)
 }

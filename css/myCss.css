@@ -9,7 +9,7 @@
 }
 
 .myNav{
-   background-color: #f8f9fa;
+   background-color: #bdc3c7;
     color: black;
 }
 
@@ -24,5 +24,9 @@
 }
 
 #chart-container{
+    margin-top: 100px;
+}
+
+#simplepw{
     margin-top: 100px;
 }

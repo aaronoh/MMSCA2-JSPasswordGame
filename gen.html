@@ -1,0 +1,59 @@
+<!doctype html>
+<div lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="css/myCss.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script
+                src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+                crossorigin="anonymous"></script>
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+        <script type="text/javascript" src="js/genPassword.js"></script>
+        <title>Secure Password Creator</title>
+
+    </head>
+    <nav>
+        <div class="myNav nav-wrapper">
+            <a href="#" class="brand-logo right"> <img src="imgs/logo.png" width="120px" height="60px"></a>
+            <ul class="left">
+                <li><h5>Create a Secure Password</h5></li>
+                <li><a href="index.html">Check</a></li>
+                <li  class="active"><a href="gen.html">Generate</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <h2>Generate a secure password</h2>
+            <p>Here you can generate your own secure password. Click the button below to generate a secure password. This password is made up of random letters, numbers and symbols. In order to use passwords like this effectively, you should use a password manager.</p>
+        </div>
+        <div class="row">
+                    <input type="range" id="range" min="10" max="20" />
+
+            <button id="gen" onclick="genPw()" class="btn waves-effect waves-light col l12" name="action">Generate
+                <i class="material-icons right">lock</i>
+            </button>
+            <h2 id="genPwOutput"></h2>
+        </div>
+
+        <div id="simplepw" class="row">
+            <h2>Generate an easy to remember password</h2>
+            <p>Here you can generate your own easy to remember secure password. Click the button below to generate a secure password. This password is made up of two random words seperated by two exclamation points and a random number. These passwords are designe to balance security with ease of recall.</p>
+        </div>
+        <div class="row">
+            <button id="genSimple" onclick="genSimplePw()" class="btn waves-effect waves-light col l12" name="action">Generate
+                <i class="material-icons right">lock</i>
+            </button>
+            <h2 id="genSimplePwOutput"></h2>
+        </div>
+    </div>
+</div>
+</body>
+</html>

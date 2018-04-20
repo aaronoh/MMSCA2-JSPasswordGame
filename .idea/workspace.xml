@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5b685c3-31f9-40b0-bbe4-28721ce4f317" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/gen.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/genPassword.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/css/myCss.css" afterPath="$PROJECT_DIR$/css/myCss.css" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change beforePath="$PROJECT_DIR$/js/checkPassword.js" afterPath="$PROJECT_DIR$/js/checkPassword.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -18,12 +21,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="checkPassword.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/checkPassword.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="618">
-              <caret line="65" column="22" lean-forward="true" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
-              <folding />
+            <state relative-caret-position="3230">
+              <caret line="190" column="34" lean-forward="true" selection-start-line="190" selection-start-column="34" selection-end-line="190" selection-end-column="34" />
+              <folding>
+                <marker date="1524252977404" expanded="true" signature="5452:5488" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -31,51 +36,19 @@
       <file leaf-file-name="progressbar.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/progressbar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="737">
+            <state relative-caret-position="760">
               <caret line="1" column="43" lean-forward="false" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myCss.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/myCss.css">
+      <file leaf-file-name="genPassword.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/genPassword.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="210">
+              <caret line="231" column="76" lean-forward="true" selection-start-line="231" selection-start-column="76" selection-end-line="231" selection-end-column="76" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Secure Password Creator.url" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Secure Password Creator.url">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProgressBar.js.url" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProgressBar.js.url">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="checkPassword.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/checkPassword.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-              <folding>
-                <marker date="1524174082422" expanded="true" signature="5452:5488" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -85,6 +58,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -102,8 +76,11 @@
       <list>
         <option value="$PROJECT_DIR$/js/progressbar.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/myCss.css" />
         <option value="$PROJECT_DIR$/js/checkPassword.js" />
+        <option value="$PROJECT_DIR$/js/genPassword.js" />
+        <option value="$PROJECT_DIR$/gen.html" />
+        <option value="$PROJECT_DIR$/css/myCss.css" />
+        <option value="$PROJECT_DIR$/js/genSimplePw.js" />
       </list>
     </option>
   </component>
@@ -120,8 +97,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="131" />
+    <option name="y" value="-18" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -142,6 +119,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -149,21 +127,10 @@
               <item name="CA2" type="b2602c69:ProjectViewProjectNode" />
               <item name="CA2" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CA2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CA2" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CA2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CA2" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -173,6 +140,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aaron\Google Drive\FourthYear\Multimedia Systems\CA2\js" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -213,11 +186,12 @@
       <workItem from="1524073127308" duration="5190000" />
       <workItem from="1524157845293" duration="2973000" />
       <workItem from="1524173589281" duration="523000" />
+      <workItem from="1524247431451" duration="5867000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22139000" />
+    <option name="totallyTimeSpent" value="28006000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -249,11 +223,61 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" column="22" lean-forward="true" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/progressbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="1" column="43" lean-forward="false" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/myCss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Secure Password Creator.url">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProgressBar.js.url">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/checkPassword.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+          <folding>
+            <marker date="1524252977404" expanded="true" signature="5452:5488" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1088">
@@ -291,7 +315,7 @@
         <state relative-caret-position="442">
           <caret line="26" column="80" lean-forward="false" selection-start-line="26" selection-start-column="80" selection-end-line="26" selection-end-column="80" />
           <folding>
-            <marker date="1524174082422" expanded="true" signature="5452:5488" ph="..." />
+            <marker date="1524252977404" expanded="true" signature="5452:5488" ph="..." />
           </folding>
         </state>
       </provider>
@@ -333,7 +357,7 @@
         <state relative-caret-position="187">
           <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding>
-            <marker date="1524174082422" expanded="true" signature="5452:5488" ph="..." />
+            <marker date="1524252977404" expanded="true" signature="5452:5488" ph="..." />
           </folding>
         </state>
       </provider>
@@ -351,7 +375,7 @@
         <state relative-caret-position="867">
           <caret line="51" column="5" lean-forward="false" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
           <folding>
-            <marker date="1524174082422" expanded="true" signature="5452:5488" ph="..." />
+            <marker date="1524252977404" expanded="true" signature="5452:5488" ph="..." />
           </folding>
         </state>
       </provider>
@@ -369,7 +393,7 @@
         <state relative-caret-position="867">
           <caret line="51" column="5" lean-forward="false" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
           <folding>
-            <marker date="1524174082422" expanded="true" signature="5452:5488" ph="..." />
+            <marker date="1524252977404" expanded="true" signature="5452:5488" ph="..." />
           </folding>
         </state>
       </provider>
@@ -387,7 +411,7 @@
         <state relative-caret-position="867">
           <caret line="51" column="5" lean-forward="false" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
           <folding>
-            <marker date="1524174082422" expanded="true" signature="5452:5488" ph="..." />
+            <marker date="1524252977404" expanded="true" signature="5452:5488" ph="..." />
           </folding>
         </state>
       </provider>
@@ -405,7 +429,7 @@
         <state relative-caret-position="1173">
           <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
           <folding>
-            <marker date="1524174082422" expanded="true" signature="5452:5488" ph="..." />
+            <marker date="1524252977404" expanded="true" signature="5452:5488" ph="..." />
           </folding>
         </state>
       </provider>
@@ -423,7 +447,7 @@
         <state relative-caret-position="1357">
           <caret line="59" column="30" lean-forward="true" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
           <folding>
-            <marker date="1524174082422" expanded="true" signature="5452:5488" ph="..." />
+            <marker date="1524252977404" expanded="true" signature="5452:5488" ph="..." />
           </folding>
         </state>
       </provider>
@@ -441,7 +465,7 @@
         <state relative-caret-position="1003">
           <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding>
-            <marker date="1524174082422" expanded="true" signature="5452:5488" ph="..." />
+            <marker date="1524252977404" expanded="true" signature="5452:5488" ph="..." />
           </folding>
         </state>
       </provider>
@@ -466,7 +490,7 @@
         <state relative-caret-position="867">
           <caret line="51" column="5" lean-forward="false" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
           <folding>
-            <marker date="1524174082422" expanded="true" signature="5452:5488" ph="..." />
+            <marker date="1524252977404" expanded="true" signature="5452:5488" ph="..." />
           </folding>
         </state>
       </provider>
@@ -491,7 +515,7 @@
         <state relative-caret-position="867">
           <caret line="51" column="5" lean-forward="false" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
           <folding>
-            <marker date="1524174082422" expanded="true" signature="5452:5488" ph="..." />
+            <marker date="1524252977404" expanded="true" signature="5452:5488" ph="..." />
           </folding>
         </state>
       </provider>
@@ -516,7 +540,7 @@
         <state relative-caret-position="867">
           <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
           <folding>
-            <marker date="1524174082422" expanded="true" signature="5452:5488" ph="..." />
+            <marker date="1524252977404" expanded="true" signature="5452:5488" ph="..." />
           </folding>
         </state>
       </provider>
@@ -533,14 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="65" column="22" lean-forward="true" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ProgressBar.js.url">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -549,29 +565,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/myCss.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <caret line="16" column="68" lean-forward="true" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/progressbar.js">
+    <entry file="file://$USER_HOME$/Desktop/TestProject/genSimplePw.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="737">
-          <caret line="1" column="43" lean-forward="false" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+        <state relative-caret-position="374">
+          <caret line="22" column="48" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="353" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="45" column="25" lean-forward="false" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/myCss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/genSimplePw.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/checkPassword.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        <state relative-caret-position="3230">
+          <caret line="190" column="34" lean-forward="true" selection-start-line="190" selection-start-column="34" selection-end-line="190" selection-end-column="34" />
           <folding>
-            <marker date="1524174082422" expanded="true" signature="5452:5488" ph="..." />
+            <marker date="1524252977404" expanded="true" signature="5452:5488" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/progressbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="1" column="43" lean-forward="false" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/genPassword.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="231" column="76" lean-forward="true" selection-start-line="231" selection-start-column="76" selection-end-line="231" selection-end-column="76" />
+          <folding />
         </state>
       </provider>
     </entry>
