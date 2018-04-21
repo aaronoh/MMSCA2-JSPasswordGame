@@ -80,10 +80,12 @@ function getPw() {
     //------------------------------------------------------Nums-------------------------------------------------------------------//
     numCom = '';
     //regex
-    let numsregex = pw.match(/\d+/g);
+    let numsregex = pw.match(/\d/g);
     //convert regex obj to str - get length and deduct 4 for ['']
-    let nums = JSON.stringify(numsregex).length - 4;
-
+    let nums = 0;
+    if (numsregex) {
+        nums = numsregex.length;
+    }
     if (nums === 0) {
         numCom = `Adding a few numbers will  enhance the security of your password.`;
         numscore = 0;
@@ -103,9 +105,12 @@ function getPw() {
 
     //------------------------------------------------------Symbols-------------------------------------------------------------------//
     //regex
-    let symaregex = pw.match(/\W+/);
+    let symaregex = pw.match(/\W/g);
 
-    let syms = JSON.stringify(symaregex).length - 4;
+    let syms = 0;
+    if (symaregex) {
+        syms = symaregex.length;
+    }
 
     if (syms === 0) {
         symCom = `Adding a few symbols will greatly improve your password.`;
