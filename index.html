@@ -22,6 +22,7 @@
     <nav>
         <div class="myNav nav-wrapper">
             <a href="#" class="brand-logo right"> <img src="imgs/logo.png" width="120px" height="60px"></a>
+            <a href="#" data-target="mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="left">
                 <li><h5>Create a Secure Password</h5></li>
                 <li class="active"><a href="index.html">Check</a></li>
@@ -29,20 +30,22 @@
             </ul>
         </div>
     </nav>
+    <ul class="sidenav" id="mobile">
+        <li><h5>Create a Secure Password</h5></li>
+        <li class="active"><a href="index.html">Check</a></li>
+        <li><a href="gen.html">Generate</a></li>
+    </ul>
 
         <div class="container">
         <div class="row">
             <h2>How secure is my password? </h2>
-            <p>A good password contains a variety of letters, numbers and symbols. It should not contain your name or any information that is publicly accessible. Enter your password here to test its' strength.</p>
+            <p>A good password contains a variety of letters, numbers and symbols. It should not contain your name or any information that is publicly accessible. Enter your password below to test its' strength.</p>
         </div>
             <div class="row">
-            <div class="input-field col l6">
+            <div class="input-field col l11">
                 <input placeholder="******************" id="pwInput" type="password" class="validate">
                 <label for="pwInput">My New Password: </label>
             </div>
-                <button id="send" onclick="getPw()" class="btn waves-effect waves-light" name="action">Check
-                    <i class="material-icons right">send</i>
-                </button>
                 <!-- Modal Structure -->
                 <div id="modal1" class="modal">
                     <div class="modal-content">
@@ -55,9 +58,9 @@
                             </br>
                             <li>Include numbers, capital letters and symbols</li>
                             </br>
-                            <li>Don’t just use one password</li>
+                            <li>Don’t use the same password for multiple services</li>
                             </br>
-                            <li>Never give out your password to anyone</li>
+                            <li>Never share your password to anyone</li>
                         </ol>
                     </div>
                     <div class="modal-footer">

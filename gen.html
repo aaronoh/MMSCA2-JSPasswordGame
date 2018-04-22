@@ -21,6 +21,7 @@
     <nav>
         <div class="myNav nav-wrapper">
             <a href="#" class="brand-logo right"> <img src="imgs/logo.png" width="120px" height="60px"></a>
+            <a href="#" data-target="mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="left">
                 <li><h5>Create a Secure Password</h5></li>
                 <li><a href="index.html">Check</a></li>
@@ -28,6 +29,11 @@
             </ul>
         </div>
     </nav>
+    <ul class="sidenav" id="mobile">
+        <li><h5>Create a Secure Password</h5></li>
+        <li><a href="index.html">Check</a></li>
+        <li class="active"><a href="gen.html">Generate</a></li>
+    </ul>
 
     <div class="container">
         <div class="row">
@@ -40,8 +46,9 @@
             <button id="gen" onclick="genPw()" class="btn waves-effect waves-light col l12" name="action">Generate
                 <i class="material-icons right">lock</i>
             </button>
-            <h2 id="genPwOutput"></h2>
+
         </div>
+        <div id="genPwOutput"></div>
 
         <div id="simplepw" class="row">
             <h2>Generate an easy to remember password</h2>
@@ -51,7 +58,7 @@
             <button id="genSimple" onclick="genSimplePw()" class="btn waves-effect waves-light col l12" name="action">Generate
                 <i class="material-icons right">lock</i>
             </button>
-            <h2 id="genSimplePwOutput"></h2>
+            <div id="genSimplePwOutput"></div>
         </div>
     </div>
 </div>

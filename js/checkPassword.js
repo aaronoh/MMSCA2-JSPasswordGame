@@ -1,10 +1,9 @@
-
 $(document).ready(function(){
     $('.modal').modal();
-});
+    $('.sidenav').sidenav();
 
-
-function getPw() {
+let input = document.getElementById('pwInput');
+input.addEventListener('keyup', function getPw() {
     document.getElementById('chart-container').innerHTML = '                    <div class="col l3">\n' +
         '                        <div class="card">\n' +
         '                        <div class="card-content">\n' +
@@ -94,7 +93,7 @@ function getPw() {
     else if (nums === 1) {
         numCom = ` This is good practice. If you'd like to increase your security you could add an additional number.`;
         numscore = 5;
-        numcol = '#fdcb6e'
+        numcol = '#fdcb6e';
     }
     else if (nums > 1) {
         numCom = ` A variety of numbers increases the security of your password.`;
@@ -191,7 +190,5 @@ function getPw() {
     lenchart.animate(lengthscore / 10);
 
     lenchart.setText(lengthscore * 10 + '%');
-
-
-    console.log(numscore, symscore)
-}
+    });
+});
