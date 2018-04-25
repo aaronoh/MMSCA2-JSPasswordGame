@@ -3,7 +3,7 @@ $(document).ready(function() {
 });
 function genPw() {
     let length = document.getElementById('range').value;
-    let chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+=-`~";
+    let chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@£$%^&*()_+=-][{}';:/?.,><";
     let pw = "";
     for (var i = 0, n = chars.length; i < length; ++i) {
         pw += chars.charAt(Math.floor(Math.random() * n));
@@ -12,7 +12,7 @@ function genPw() {
                     <div class="col l12">\n
                        <div class="card">\n
                             <div class="card-content">\n 
-                                <span>${pw}</span>\n 
+                                <h3>${pw}</h3>\n 
                             </div>\n 
                         </div>\n 
                     </div>\n 
@@ -270,13 +270,13 @@ function genSimplePw(){
     let w1 = wordList[Math.floor(Math.random()*wordList.length)];
     let w2 = wordList[Math.floor(Math.random()*wordList.length)].toUpperCase();
     let num = Math.floor(Math.random() * 1000);
-    let simpPw =w1 +'!!' +w2 + num;
+        let simpPw =w1 +'!!' +w2 + num;
 
     document.getElementById('genSimplePwOutput').innerHTML=`<div class="row">\n
                     <div class="col l12">\n
                        <div class="card">\n
                             <div class="card-content">\n 
-                                <span>${simpPw}</span>\n 
+                                <h3>${simpPw}</h3>\n 
                             </div>\n 
                         </div>\n 
                     </div>\n 
